@@ -22,6 +22,7 @@
     <!-- For miscellaneous settings -->
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS"/>
 
     <application>
         <activity android:name="DefaultActivity"

@@ -34,6 +34,7 @@ public class DefaultActivity extends Activity {
         // Add a persistent setting to allow other apps to know the device has been provisioned.
         Settings.Global.putInt(getContentResolver(), Settings.Global.DEVICE_PROVISIONED, 1);
         Settings.Secure.putInt(getContentResolver(), Settings.Secure.USER_SETUP_COMPLETE, 1);
+        Settings.Secure.putInt(getContentResolver(), Settings.Secure.TV_USER_SETUP_COMPLETE, 1);
 
         // remove this activity from the package manager.
         PackageManager pm = getPackageManager();
